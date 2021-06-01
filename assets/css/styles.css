@@ -309,6 +309,7 @@ img{
 
 
 /* ===== WORK =====*/
+
 .work__container{
   row-gap: 2rem;
 }
@@ -320,12 +321,16 @@ img{
   overflow: hidden;
 }
 .work__img img{
+  width: 100%;
+}
+
+/* .work__img img{
   transition: 1s;
   cursor: pointer;
 }
 .work__img img:hover{
   transform: scale(1.1);
-}
+} */
 
 /* ===== CONTACT =====*/
 .contact__input{
@@ -336,7 +341,7 @@ img{
   border-radius: .5rem;
   border: 1.5px solid var(--second-color);
   outline: none;
-  margin-bottom: var(--mb-4);
+  /* margin-bottom: var(--mb-4); */
 }
 .contact__button{
   display: block;
